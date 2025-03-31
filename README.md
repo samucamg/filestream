@@ -14,18 +14,18 @@ const SIA_SECRET = "SIA_SECRET"; // Insert a powerful secret text.
 const PUBLIC_BOT = false; // Make your bot public.
 ```
 
-### Setup:
-- Get `BOT_TOKEN` from [@botfather](https://t.me/botfather).
-    - Turn on `inline mode` in bot settings.
-    - Disable `inline feedback` for better results.
-- Change `BOT_WEBHOOK` with your preferred webhook.
-- Change `BOT_SECRET` with a powerful secret text (only `[A-Z, a-z, 0-9, _, -]` are allowed).
-- Change `SIA_SECRET` with a powerful secret text using [password-generator](https://1password.com/password-generator).
-- Change `PUBLIC_BOT` to make your bot public (only `[true, false]` are allowed).
-- Get `BOT_OWNER` from [@idbot](https://t.me/username_to_id_bot).
-- Get `BOT_CHANNEL` id by forwarding a message from channel to [@idbot](https://t.me/username_to_id_bot).
-  - Channel **ID** must start with `-100`.
-  - Bot must be **admin** in channel with **edit rights**.
+### Configuração:
+- Obtenha BOT_TOKEN em  [@botfather](https://t.me/botfather).
+  - Ative inline mode nas configurações do bot
+  - Desative inline feedback para melhores resultados
+- Altere BOT_WEBHOOK com seu webhook preferido
+- Use BOT_SECRET com texto secreto complexo (apenas [A-Z, a-z, 0-9, _, -] permitidos)
+- Use SIA_SECRET com texto secreto gerado em [password-generator](https://1password.com/password-generator).
+- Defina PUBLIC_BOT para tornar o bot público (apenas [true, false] permitidos)
+- Obtenha BOT_OWNER usando [@idbot](https://t.me/username_to_id_bot).
+- Obtenha BOT_CHANNEL encaminhando mensagem do canal para [@idbot](https://t.me/username_to_id_bot).
+  - ID do canal deve começar com -100.
+  - Bot precisa ser **admin** no canal com **permissão de edição**.
 
 <br>
 
@@ -38,7 +38,7 @@ const PUBLIC_BOT = false; // Make your bot public.
     - Upload `worker.js` into **Cloudflare**.
     - Modify the [variables](#-variables).
 - **Dynamic:**
-    - Generate the code using [code generator](https://vauth.github.io/filestream-cf/).
+    - Generate the code using [code generator](https://github.com/samucamg/filestream/).
     - Copy paste the generated code to cloudflare workers.
 - Finally, **Deploy**.
 
